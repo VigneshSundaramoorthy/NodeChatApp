@@ -1,0 +1,21 @@
+{
+  "name": "samplechat",
+  "version": "1.0.0",
+  "description": "App to test GCP PubSub",  
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "author": "Vignesh Sundaramorrthy",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^0.13.2",
+    "angular-ui-notification": "^0.3.6",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "method-override": "^2.3.9",
+    "morgan": "^1.8.2",
+    "socket.io": "^2.0.3",
+    "socket.io-client": "^2.0.3"
+  }
+}
